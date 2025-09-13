@@ -45,7 +45,7 @@ cachetools==5.3.0
     #   streamlit
 certifi==2022.12.7
     # via requests
-cffi==1.15.1
+cffi>=1.16.0
     # via argon2-cffi-bindings
 charset-normalizer==3.1.0
     # via requests
@@ -245,7 +245,7 @@ notebook==6.5.3
     # via jupyter
 notebook-shim==0.2.2
     # via nbclassic
-numpy==1.23.5
+numpy>=1.26.0
     # via
     #   -r requirements.in
     #   altair
